@@ -1,0 +1,19 @@
+navbar {
+    box-shadow: 1px 1px 3px;
+}
+
+/* for masonry layout */
+.gallery {
+    width: 80%;
+    margin: 0 auto;
+    column-count: 3;
+    /* or 4 depending on screen size */
+    column-gap: 16px;
+}
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    display: block;
+}
